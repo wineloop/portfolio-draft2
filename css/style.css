@@ -1,0 +1,119 @@
+body {
+    background-color: #FFFFFF;
+    background-size: cover; 
+    background-attachment: fixed;
+    text-align: center;
+    margin-bottom: 4vh;
+    width: 100vw;
+    align-items: center;
+    align-content: center;
+    overflow-x: hidden;
+}
+main {
+    padding-top: 4vh;
+}
+nav {
+    font-size: 2vh;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+}
+nav li {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 2vh 1.5vh;
+    text-decoration: none;
+}
+nav li:hover {
+    background: #ddd;
+    color: black;
+}
+.current{
+    background: #ddd;
+    color: black;
+}
+.corner {
+    float: left;
+}
+.corner:hover {
+    color: #f2f2f2;
+    background: #333;
+}
+img:hover:nth-child(2n) {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.gallery img{
+    border: hidden 100px;
+    width: 340px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.finalgallery img{
+    border: solid 3px #333;
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.mainphoto {
+    width: 1230px; 
+    border: hidden 1px;
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+}
+ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+p {
+    margin:auto;
+    line-height: 3vh;
+    font-size: 2vh;
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px
+}
+.page {
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+h1 {
+    font-size:35px
+}
+h2 {
+    font-size: 25px;
+}
+.assemblyp1 {
+    padding-top: 70px;
+}
+footer {
+    
+    text-align: center;
+    padding: 5px;
+    color: #333;
+
+}
